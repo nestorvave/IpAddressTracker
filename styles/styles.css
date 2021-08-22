@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+:root{
+    --Very-Dark-Gray: hsl(0, 0%, 17%);
+    --Dark-Gray: hsl(0, 0%, 59%);
+}
+
+
+
+.container{
+    width: 100%;
+    height: 30vh;
+  
+}
+
+.pattern{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../images/pattern-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+.pattern h2{
+    margin-top: 30px;
+    color: white;
+}
+
+.input {
+    width: 85%;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+
+}
+.input-text{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius:20px 0px 0px 20px;
+    padding-left:8%;
+    color: var(--Very-Dark-Gray);
+    font-size: 15px;
+    
+
+}
+#button-submit{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    border-radius:0px 20px 20px 0px;
+    border: none;
+}
+.map{
+    width: 100%;
+    height: 63vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.stats{
+    width: 85%;
+    height: auto;
+    background-color:  white;
+    position: absolute;
+    top: 170px;
+    border-radius:10px ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+
+
+}
+.prop{
+    width: 95%;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.prop p{
+    color: var(--Dark-Gray);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.footer{
+    width: 100%;
+    height: 7%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.6979166666666667) 0%, rgba(109,138,144,0.5466561624649859) 100%);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    font-size: 10px;
+    color: white ;
+}
+.social-media{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    padding-top: 2px;
+}
+.social-media img{
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
